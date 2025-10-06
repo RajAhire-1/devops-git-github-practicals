@@ -30,7 +30,7 @@ git remote add origin https://github.com/user/repo.git
 git push -u origin main
 ```
 
-**📸 Screenshot:**  ![](screenshots/git-status.png)
+**📸 Screenshot:**  ![](screenshots/init-push.png)
 *💡 Professional Tip: Use semantic commit messages for better project tracking*
 
 ---
@@ -51,7 +51,7 @@ Untracked files:
   index.html
 ```
 
-**📸 Screenshot:** "screenshots/git-status.png"
+**📸 Screenshot:** ![](screenshots/git-status.png)
 *🔍 Status Guide: Know exactly what's changed, staged, or untracked*
 
 ---
@@ -81,7 +81,7 @@ git revert a1b2c3d   # Create safe undo commit
 git log --oneline    # Verify clean history
 ```
 
-**📸 Screenshot:** `screenshots/revert-commit.png`
+**📸 Screenshot:** ![](screenshots/revert-commit.png)
 *✅ Team-Friendly: Preserves history while fixing mistakes*
 
 ---
@@ -95,7 +95,7 @@ git reset --hard HEAD~1   # ⚠️ Destructive: removes everything
 git reset --soft HEAD~1   # 🛡️ Safe: keeps changes staged
 ```
 
-**📸 Screenshot:** `screenshots/reset-commit.png`
+**📸 Screenshot:** ![](screenshots/reset-commit.png)
 *🚨 Critical: Never use hard reset on shared branches!*
 
 ---
@@ -116,7 +116,7 @@ git pull
 git pull --rebase
 ```
 
-**📸 Screenshot:** `screenshots/pull-fetch.png`
+**📸 Screenshot:** ![](screenshots/pull-fetch.png)
 *🏆 Recommended: Fetch + Merge for team collaboration*
 
 ---
@@ -131,7 +131,7 @@ cd project
 git status
 ```
 
-**📸 Screenshot:** `screenshots/clone-repo.png`
+**📸 Screenshot:** ![](screenshots/clone-repo.png)
 *🚀 Pro Tip: Use SSH URLs for faster, more secure authentication*
 
 ---
@@ -147,7 +147,7 @@ git diff HEAD origin/main  # Compare with remote
 git diff feature main      # Branch differences
 ```
 
-**📸 Screenshot:** `screenshots/git-diff.png`
+**📸 Screenshot:** ![](screenshots/git-diff.png)
 *👀 Use Cases: Code reviews, debugging, change validation*
 
 ---
@@ -170,7 +170,7 @@ git merge feature-login
 git branch -d feature-login
 ```
 
-**📸 Screenshot:** `screenshots/branch-merge.png`
+**📸 Screenshot:** ![](screenshots/branch-merge.png)
 *🌊 Professional Practice: One feature per branch, clean merge history*
 
 ---
@@ -201,7 +201,7 @@ CONFLICT (content): Merge conflict in header.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-**📸 Screenshot:** `screenshots/conflict-occur.png`
+**📸 Screenshot:** ![](screenshots/conflict-occur.png)
 *⚠️ What Happened: Both branches modified the same file in overlapping lines.*
 
 ---
@@ -224,7 +224,7 @@ git add header.html
 git commit -m "fix: resolve merge conflict in header.html"
 ```
 
-**📸 Screenshot:** `screenshots/conflict-resolved.png`
+**📸 Screenshot:** ![](screenshots/conflict-resolved.png)
 *✅ Best Practice: Always discuss conflict resolutions with your teammate before finalizing.*
 
 ---
