@@ -1,6 +1,4 @@
-Perfect 👌 — here’s your **fully integrated README**, with the new **“⚔️ Conflict Occur”** and **“🤝 Conflict Resolved”** sections seamlessly added in the same tone, structure, and formatting as the rest of your guide.
 
----
 
 # 🚀 Git & GitHub DevOps Mastery
 
@@ -32,7 +30,7 @@ git remote add origin https://github.com/user/repo.git
 git push -u origin main
 ```
 
-**📸 Screenshot:**  ![]()
+**📸 Screenshot:**  ![](screenshots/git-status.png)
 *💡 Professional Tip: Use semantic commit messages for better project tracking*
 
 ---
@@ -53,7 +51,7 @@ Untracked files:
   index.html
 ```
 
-**📸 Screenshot:** `screenshots/git-status.png`
+**📸 Screenshot:** "screenshots/git-status.png"
 *🔍 Status Guide: Know exactly what's changed, staged, or untracked*
 
 ---
