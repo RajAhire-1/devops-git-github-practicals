@@ -32,8 +32,6 @@ git push -u origin main
   <img src="screenshots/init-push.png" width="700" alt="Initialize Repository Screenshot">
 </p>
 
-*💡 Professional Tip: Use semantic commit messages for better project tracking*
-
 ---
 
 ## 📈 Check Status
@@ -56,8 +54,6 @@ Untracked files:
   <img src="screenshots/git-status.png" width="700" alt="Git Status Screenshot">
 </p>
 
-*🔍 Status Guide: Know exactly what's changed, staged, or untracked*
-
 ---
 
 ## ↩️ Restore Staged
@@ -74,8 +70,6 @@ git status                   # Back to clean state
   <img src="screenshots/restore-staged.png" width="700" alt="Restore Staged Screenshot">
 </p>
 
-*🎯 Pro Use: Perfect for splitting large changes into focused commits*
-
 ---
 
 ## 🔄 Revert Commit
@@ -91,8 +85,6 @@ git log --oneline    # Verify clean history
 <p align="center">
   <img src="screenshots/revert-commit.png" width="700" alt="Revert Commit Screenshot">
 </p>
-
-*✅ Team-Friendly: Preserves history while fixing mistakes*
 
 ---
 
